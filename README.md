@@ -1,4 +1,4 @@
-# YowPay Checkout Integration
+# E-Com QR Payment Checkout Component
 
 ![QR SEPA Payment Solution](https://github.com/diegocaumont/yowpay_checkout_ecom/blob/main/banner.jpg)
 
