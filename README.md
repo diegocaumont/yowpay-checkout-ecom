@@ -33,14 +33,11 @@ The `yowpayApi.php` file contains the [YowPayApi](file:///c%3A/Users/Diego/Docum
 
 ## Getting Started
 
-1. **Configure API Credentials**: Replace `'APP_TOKEN'` and `'APP_SECRET_KEY'` in `generateInvoice.php` with your actual YowPay credentials.
+1. **Configure API Credentials**: Replace `'APP_TOKEN'` and `'APP_SECRET_KEY'` in `generateInvoice.php` with your actual YowPay credentials. Setup a shop : https://yowpay.com/account/commerce
 2. **Set Up Frontend**: Customize `index.php` to match your product or service offerings.
-3. **Handle Responses**: Ensure `success.html` and `cancel.html` are set up to provide appropriate feedback to your customers.
+3. **Handle Responses**: Ensure `success.html` and `cancel.html` are set up to provide appropriate feedback to your customers. Linking callback/cancel/webhook  : https://yowpay.com/account/commerce/detail
+4. **Handling Customer Info**: TD - Shortcut solution is using the Reference field to save string user/purchase information.
 
 ## Security Note
 
 The provided code snippets include placeholders for sensitive data ([APP_TOKEN](file:///c%3A/Users/Diego/Documents/yowpay/public_template/ecom_yowpay_checkout/generateInvoice.php#5%2C15-5%2C15), [APP_SECRET_KEY](file:///c%3A/Users/Diego/Documents/yowpay/public_template/ecom_yowpay_checkout/generateInvoice.php#6%2C16-6%2C16)). In a production environment, it's crucial to secure these credentials properly. Avoid hardcoding them directly in your codebase. Consider using environment variables or secure configuration files.
-
-## Conclusion
-
-This README outlines the basic setup for integrating YowPay Checkout into an e-commerce platform. For detailed API documentation or further assistance, refer to YowPay's official documentation or contact their support team.
