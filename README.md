@@ -1,4 +1,6 @@
-# YowPay Checkout Integration README
+# YowPay Checkout Integration
+
+![QR SEPA Payment Solution](https://ibb.co/zVfr0XB)
 
 ## Overview
 
